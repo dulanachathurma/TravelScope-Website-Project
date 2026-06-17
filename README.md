@@ -49,4 +49,14 @@ vercel.json
 Your original image paths work exactly the same.
 Copy your `images/` folder into `public/` and all cards/carousel will load automatically.
 
-Built with React + Vite ⚡
+Built with React + Vite 
+
+
+<img width="1440" height="806" alt="Screenshot 2026-06-18 at 00 46 47" src="https://github.com/user-attachments/assets/c38dc841-6d8e-4f2a-bfac-8aba0008bbce" />
+
+![Uploading Screenshot 2026-06-18 at 00.47.27.png…]()
+
+![Uploading Screenshot 2026-06-18 at 00.47.56.png…]()
+
+
+
