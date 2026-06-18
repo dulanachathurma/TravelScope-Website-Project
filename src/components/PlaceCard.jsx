@@ -2,7 +2,7 @@ const FALLBACK = 'https://images.unsplash.com/photo-1548013146-72479768bada?auto
 
 export default function PlaceCard({ place, onPlaceClick }) {
   return (
-    <div className="place-card" onClick={() => onPlaceClick(place)}>
+   <div className="place-card">
       <div className="place-img-wrap">
         <img
           className="place-img"
@@ -18,7 +18,7 @@ export default function PlaceCard({ place, onPlaceClick }) {
         {place.address && (
           <p className="place-address">📍 {place.address}</p>
         )}
-        <button className="place-map-btn">🗺️ View on Map</button>
+       <button className="place-map-btn" onClick={() => onPlaceClick(place)}>🗺️ View Location </button>
       </div>
     </div>
   )
