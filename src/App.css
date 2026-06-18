@@ -758,17 +758,17 @@
   width: 100%;
   padding: 10px;
   border-radius: var(--radius-sm);
-  background: rgba(240,180,41,0.1);
-  color: var(--gold);
+  background: #27ae60;
+  color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
-  border: 1px solid rgba(240,180,41,0.25);
+  border: 1px solid #27ae60;
   transition: all var(--transition);
 }
 .place-map-btn:hover {
-  background: var(--gold);
-  color: #0f1117;
-  border-color: var(--gold);
+  background: #219a52;
+  color: #ffffff;
+  border-color: #219a52;
 }
 
 .no-results {
